@@ -1,6 +1,5 @@
 import collegeLogo from "../assets/college-logo.png";
 import interLogo from "../assets/inter-logo.png";
-import schoolLogo from "../assets/school-logo.png";
 
 export const education = [
   {
