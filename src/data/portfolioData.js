@@ -18,14 +18,6 @@ export const education = [
     cgpa: "94.3%",
     logo: interLogo,
   },
-
-  {
-    degree: "Schooling",
-    college: "Sri Sathya Sai Vidhya Vihar",
-    duration: "2021 - 2022",
-    cgpa: "80%",
-    logo: schoolLogo,
-  },
 ];
 export const experience = [
   {
