@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary: #1f6f5f;
+  --secondary: #2fa084;
+  --accent: #6fcf97;
+  --light: #eeeeee;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary);
+  color: var(--light);
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: var(--accent);
+}
+
+.hero h2 {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.hero p {
+  margin-top: 20px;
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background: var(--secondary);
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid var(--accent);
+}
+
+.section h2 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: var(--accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.card p,
+.card li {
+  line-height: 1.7;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.tags span {
+  background: rgba(111, 207, 151, 0.2);
+  border: 1px solid var(--accent);
+  padding: 8px 14px;
+  border-radius: 50px;
+  font-size: 0.9rem;
+}
+
+.links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.links a,
+.card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.skill-category {
+  margin-bottom: 40px;
+}
+
+.footer {
+  padding: 50px 10%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer h2 {
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 60px 5%;
+  }
+}
+.education-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.college-logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: white;
+  padding: 5px;
+}
+
+.education-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #6FCF97;
+  box-shadow: 0 0 40px rgba(111, 207, 151, 0.4);
+  transition: 0.4s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.03);
+}
+
+.hero h1 {
+  font-size: 4rem;
+  color: #6FCF97;
+}
+
+.hero h2 {
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.hero p {
+  margin-top: 20px;
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .profile-image {
+    width: 250px;
+    height: 250px;
+  }
+}
+.resume-btn {
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 1px solid #6FCF97;
+  color: #EEEEEE;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+  background: #2FA084;
+  transform: translateY(-3px);
+}
