@@ -2,20 +2,22 @@ import { skills } from "../data/portfolioData";
 
 const Skills = () => {
   return (
-    <section className="section">
+    <section id="skills" className="section">
       <h2>Skills</h2>
 
-      {Object.entries(skills).map(([category, items]) => (
-        <div key={category} className="skill-category">
-          <h3>{category.toUpperCase()}</h3>
+      <div className="skills-grid">
+        {Object.entries(skills).map(([category, items]) => (
+          <div key={category} className="card skill-category">
+            <h3>{category}</h3>
 
-          <div className="tags">
-            {items.map((skill, index) => (
-              <span key={index}>{skill}</span>
-            ))}
+            <div className="tags">
+              {items.map((skill) => (
+                <span key={`${category}-${skill}`}>{skill}</span>
+              ))}
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   );
 };

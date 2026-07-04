@@ -3,11 +3,33 @@ const Footer = () => {
     <footer className="footer">
       <h2>Yasaswi Vadrevu</h2>
 
-      <p>Email: vadrevuyasaswi@gmail.com</p>
+      <p>
+        <a href="mailto:vadrevuyasaswi@gmail.com">
+          vadrevuyasaswi@gmail.com
+        </a>
+      </p>
 
-      <p>Phone: +91 7989645466</p>
+      <div className="footer-links">
+        <a
+          href="https://github.com/yasaswi1501"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
 
-      <p>WhatsApp: +91 7989645466</p>
+        <a
+          href="https://www.linkedin.com/in/yasaswi-vadrevu"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
+
+      <p className="footer-copy">
+        © {new Date().getFullYear()} Yasaswi Vadrevu
+      </p>
     </footer>
   );
 };

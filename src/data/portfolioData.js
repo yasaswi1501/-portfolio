@@ -9,7 +9,6 @@ export const education = [
     cgpa: "8.23 CGPA",
     logo: collegeLogo,
   },
-
   {
     degree: "Intermediate",
     college: "Ascent Junior College",
@@ -18,48 +17,60 @@ export const education = [
     logo: interLogo,
   },
 ];
-export const experience = [
+
+export const certificates = [
   {
-    role: "Frontend Developer Intern",
-    company: "XYZ Company",
-    duration: "Jan 2025 - Apr 2025",
-    points: [
-      "Built responsive React applications",
-      "Improved UI performance",
-      "Collaborated with backend team",
-    ],
+    title: "Gemini for University Students",
+    issuer: "Google",
+    date: "Issued May 2026",
+    image: null,
+    link: "https://edu.google.accredible.com/790319e9-9d8c-4285-9f82-cd2cded4036c#acc.OBESvDVs",
+  },
+  {
+    title: "Academy Accreditation - Generative AI Fundamentals",
+    issuer: "Databricks",
+    date: "Issued May 2026",
+    image: null,
+    link: "https://credentials.databricks.com/d10b3320-aa9f-449f-8ea7-a2df2a3d74b3#acc.3DgHcEKJ",
+  },
+  {
+    title: "Claude Code in Action",
+    issuer: "Anthropic",
+    date: "Issued May 2026",
+    image: null,
+    link: "https://drive.google.com/file/d/1owBYEGaDe7jptoV6tsSX-REGp_ddKWGj/view?usp=sharing",
+  },
+  {
+    title: "YUVA AI For All",
+    issuer: "TCS iON",
+    date: "Issued May 2026",
+    image: null,
+    link: "https://drive.google.com/file/d/1S50OAbvaHwrQZOqPguDnIQpUGSkULcy6/view?usp=sharing",
+  },
+  {
+    title: "Google Skills",
+    issuer: "Google",
+    date: "Issued May 2026",
+    image: null,
+    link: "https://www.skills.google/profile/badges",
   },
 ];
 
 export const projects = [
   {
     title: "Portfolio Website",
-    description: "Modern developer portfolio using React and Tailwind.",
-    tech: ["React", "Tailwind", "Framer Motion"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Task Manager App",
-    description: "Task management system with authentication.",
-    tech: ["React", "Node.js", "MongoDB"],
+    description:
+      "A responsive personal portfolio built to showcase my education, projects, skills, certificates, and resume.",
+    tech: ["React", "Vite", "JavaScript", "CSS"],
     github: "#",
     live: "#",
   },
 ];
 
 export const skills = {
-  frontend: ["React", "JavaScript", "Tailwind", "HTML", "CSS"],
-  backend: ["Node.js", "Express"],
-  database: ["MongoDB", "MySQL"],
-  tools: ["Git", "GitHub", "VS Code", "Postman"],
+  Languages: ["Java", "Python", "JavaScript"],
+  "Core CS": ["Data Structures", "Algorithms", "OOP", "DBMS"],
+  "Web Development": ["React", "Node.js", "Express.js", "MongoDB"],
+  "AI/ML": ["Machine Learning", "Generative AI"],
+  Tools: ["Git", "GitHub", "VS Code"],
 };
-
-export const certificates = [
-  {
-    title: "Claude Code In Action",
-    issuer: "Anthropic",
-    date: "May5, 2026",
-    link: "https://drive.google.com/file/d/1owBYEGaDe7jptoV6tsSX-REGp_ddKWGj/view?usp=sharing",
-  },
-];
