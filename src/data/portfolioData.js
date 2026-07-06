@@ -18,6 +18,25 @@ export const education = [
   },
 ];
 
+export const internships = [
+  {
+    company: "DecodeLabs",
+    role: "Full Stack Development Intern",
+    type: "Virtual Internship",
+    duration: "May 20, 2026 - June 20, 2026",
+    location: "Remote",
+    description:
+      "Completed a virtual full stack development internship focused on hands-on problem solving, real-world projects, and collaborative development tasks.",
+    tech: [
+      "Full Stack Development",
+      "JavaScript",
+      "Web Development",
+      "Problem Solving",
+    ],
+    certificate:
+    "https://drive.google.com/drive/u/0/folders/1wmPjEdEH7EvKwc6fOTrM9wVQaaaeGO_l",
+  },
+];
 
 export const certificates = [
   {
@@ -61,7 +80,7 @@ export const projects = [
   {
     title: "Porsche Interactive Experience",
     description:
-      "A cinematic, interactive Porsche showcase website that allows users to explore multiple models, inspect vehicle features through interactive hotspots, compare cars, view performance specifications, and experience immersive model-specific interior cockpit sequences with racing-game-inspired transitions.",
+      "An immersive, cinematic Porsche showcase featuring multi-model exploration, vehicle hotspots, performance specifications, side-by-side comparisons, and immersive cockpit experiences with racing-inspired transitions.",
     tech: [
       "React.js",
       "JavaScript",
