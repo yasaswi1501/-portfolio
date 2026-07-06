@@ -92,7 +92,6 @@ export const projects = [
   "Data-Driven Components",
   "React Three Fiber",
   "Drei",
-  "GSAP",
   ],
     github: "https://github.com/yasaswi1501/NEUN11",
     live: "https://neun-11.vercel.app",
