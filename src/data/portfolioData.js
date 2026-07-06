@@ -102,8 +102,8 @@ export const projects = [
     description:
       "A responsive personal portfolio built to showcase my education, projects, skills, certificates, and resume.",
     tech: ["React", "Vite", "JavaScript", "CSS"],
-    github: "https://github.com/yasaswi1501/portfolio",
-    live: "https://yasaswi1501.github.io/portfolio/",
+    github: "https://github.com/yasaswi1501/-portfolio",
+    live: "https://portfolio-beta-sandy-60.vercel.app/",
   },
 ];
 
