@@ -78,32 +78,32 @@ export const certificates = [
 
 export const projects = [
   {
-    title: "Porsche Interactive Experience",
+    title: "NEUN11",
     description:
-      "An immersive, cinematic Porsche showcase featuring multi-model exploration, vehicle hotspots, performance specifications, side-by-side comparisons, and immersive cockpit experiences with racing-inspired transitions.",
-    tech: [
-      "React.js",
-      "JavaScript",
-      "HTML5",
-      "CSS3",
-      "Three.js",
-      "React Three Fiber",
-      "Drei",
-      "GSAP",
-      "Framer Motion",
-      "WebGL",
-      "Responsive Web Design",
-    ],
-    github: "#",
-    live: "#",
+      "A cinematic, interactive automotive experience featuring multi-model exploration, vehicle-specific hotspots, performance comparisons, immersive cockpit sequences, engineering storytelling, sound experiences, and scroll-driven visual interactions.",    
+      tech: [
+  "React.js",
+  "JavaScript",
+  "Vite",
+  "Framer Motion",
+  "Interactive UI",
+  "Scroll Animations",
+  "Responsive Web Design",
+  "Data-Driven Components",
+  "React Three Fiber",
+  "Drei",
+  "GSAP",
+  ],
+    github: "https://github.com/yasaswi1501/NEUN11",
+    live: "https://neun-11.vercel.app",
   },
   {
     title: "Portfolio Website",
     description:
       "A responsive personal portfolio built to showcase my education, projects, skills, certificates, and resume.",
     tech: ["React", "Vite", "JavaScript", "CSS"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/yasaswi1501/portfolio",
+    live: "https://yasaswi1501.github.io/portfolio/",
   },
 ];
 
