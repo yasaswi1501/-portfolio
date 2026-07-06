@@ -18,6 +18,7 @@ export const education = [
   },
 ];
 
+
 export const certificates = [
   {
     title: "Gemini for University Students",
