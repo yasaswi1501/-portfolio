@@ -34,7 +34,7 @@ export const internships = [
       "Problem Solving",
     ],
     certificate:
-    "https://drive.google.com/drive/u/0/folders/1wmPjEdEH7EvKwc6fOTrM9wVQaaaeGO_l",
+    "https://drive.google.com/file/d/1K4QtiW4k03O3_LUIKv7_OLtoV7mWA7NR/view?usp=sharing",
   },
 ];
 
