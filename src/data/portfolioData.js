@@ -100,7 +100,15 @@ export const projects = [
     title: "Portfolio Website",
     description:
       "A responsive personal portfolio built to showcase my education, projects, skills, certificates, and resume.",
-    tech: ["React", "Vite", "JavaScript", "CSS"],
+    tech: [
+          "React.js",
+          "JavaScript",
+          "Vite",
+          "HTML5",
+          "CSS3",
+          "Responsive Web Design",
+          "Data-Driven Components",
+          ],
     github: "https://github.com/yasaswi1501/-portfolio",
     live: "https://portfolio-beta-sandy-60.vercel.app/",
   },
