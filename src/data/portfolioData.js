@@ -58,6 +58,26 @@ export const certificates = [
 
 export const projects = [
   {
+    title: "Porsche Interactive Experience",
+    description:
+      "A cinematic, interactive Porsche showcase website that allows users to explore multiple models, inspect vehicle features through interactive hotspots, compare cars, view performance specifications, and experience immersive model-specific interior cockpit sequences with racing-game-inspired transitions.",
+    tech: [
+      "React.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Three.js",
+      "React Three Fiber",
+      "Drei",
+      "GSAP",
+      "Framer Motion",
+      "WebGL",
+      "Responsive Web Design",
+    ],
+    github: "#",
+    live: "#",
+  },
+  {
     title: "Portfolio Website",
     description:
       "A responsive personal portfolio built to showcase my education, projects, skills, certificates, and resume.",
