@@ -257,6 +257,94 @@ section {
   gap: 20px;
 }
 
+/* ABOUT */
+
+.about-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.about-card {
+  padding: 36px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+  box-shadow: 0 12px 30px rgba(111, 207, 151, 0.15);
+}
+
+.about-card p {
+  max-width: 1000px;
+  color: #e4e4e4;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.about-card p + p {
+  margin-top: 16px;
+}
+
+.about-card .about-intro {
+  color: var(--light);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.about-highlights {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.about-highlight {
+  padding: 18px;
+  background: rgba(111, 207, 151, 0.08);
+  border: 1px solid rgba(111, 207, 151, 0.25);
+  border-radius: 16px;
+}
+
+.about-highlight-label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about-highlight strong {
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .about-card {
+    padding: 24px;
+  }
+
+  .about-highlights {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* EDUCATION */
 
 .education-card {

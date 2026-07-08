@@ -9,17 +9,17 @@ const Hero = () => {
           <h1>Yasaswi Vadrevu</h1>
 
           <h2>
-            Computer Science Student | Software Engineering | AI/ML
+            Computer Science Student | DSA | AI/ML
           </h2>
 
           <p>
-            I build scalable software and intelligent applications using
-            strong problem-solving fundamentals, modern full-stack
-            technologies, and AI/ML.
+            I solve complex problems through strong Data Structures and
+            Algorithms fundamentals while developing practical skills in
+            AI/ML and exploring modern full-stack development.
           </p>
 
           <p className="hero-status">
-            Open to Software Engineering and AI/ML Internship Opportunities
+            Open to AI/ML, Full-Stack Development, and Software Engineering Internship Opportunities
           </p>
 
           <div className="hero-buttons">
