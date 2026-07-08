@@ -5,9 +5,9 @@ const About = () => {
 
       <div className="about-card">
         <p className="about-intro">
-          I’m Yasaswi Vadrevu, a Computer Science student passionate about
-          Data Structures and Algorithms, AI/ML, and building meaningful
-          software experiences.
+          I’m Yasaswi Vadrevu, a third-year Computer Science student at GITAM,
+          Visakhapatnam, passionate about Data Structures and Algorithms, AI/ML,
+          and building meaningful software experiences.
         </p>
 
         <p>
