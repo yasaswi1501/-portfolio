@@ -1,6 +1,10 @@
 import collegeLogo from "../assets/college-logo.png";
 import interLogo from "../assets/inter-logo.png";
 
+import attrixOverview from "../assets/projects/attrix-overview.png";
+import neun11Overview from "../assets/projects/neun11-overview.png";
+import portfolioOverview from "../assets/projects/portfolio-overview.png";
+
 export const education = [
   {
     degree: "B.Tech in Computer Science",
@@ -61,11 +65,11 @@ export const certificates = [
     link: "https://drive.google.com/file/d/1owBYEGaDe7jptoV6tsSX-REGp_ddKWGj/view?usp=sharing",
   },
   {
-  title: "Generative AI Mastermind",
-  issuer: "Outskill",
-  date: "Issued 2026",
-  image: null,
-  link: "https://drive.google.com/file/d/1jhEGcRAYdYIN4eJww4RXFjNO-3At95c2/view?usp=sharing",
+    title: "Generative AI Mastermind",
+    issuer: "Outskill",
+    date: "Issued 2026",
+    image: null,
+    link: "https://drive.google.com/file/d/1jhEGcRAYdYIN4eJww4RXFjNO-3At95c2/view?usp=sharing",
   },
   {
     title: "YUVA AI For All",
@@ -88,7 +92,10 @@ export const projects = [
     category: "AI / Machine Learning",
     items: [
       {
-        title: "Attrix - Enterprise Workforce Intelligence Platform",
+        title: "Attrix — Enterprise Workforce Intelligence Platform",
+        image: attrixOverview,
+        imageAlt:
+          "Attrix enterprise workforce intelligence executive dashboard",
         description:
           "A production-ready enterprise workforce intelligence platform that transforms employee data into interactive executive dashboards and evidence-based organizational insights. Attrix supports analysis across departments, job roles, demographics, tenure, workload, mobility, and organizational risk hotspots using dynamic filtering, advanced visualizations, and real-time analytical summaries.",
         tech: [
@@ -108,6 +115,7 @@ export const projects = [
         ],
         github: "https://github.com/yasaswi1501/Attrix",
         live: "https://attrix.streamlit.app/",
+        featured: true,
       },
     ],
   },
@@ -116,6 +124,8 @@ export const projects = [
     items: [
       {
         title: "Portfolio Website",
+        image: portfolioOverview,
+        imageAlt: "Yasaswi Vadrevu personal portfolio website",
         description:
           "A modern, responsive portfolio website showcasing my education, internships, projects, technical skills, certifications, and resume through a clean, professional, and interactive user experience.",
         tech: [
@@ -140,6 +150,8 @@ export const projects = [
     items: [
       {
         title: "NEUN11",
+        image: neun11Overview,
+        imageAlt: "NEUN11 interactive automotive experience",
         description:
           "A cinematic, interactive automotive experience featuring multi-model exploration, vehicle-specific hotspots, performance comparisons, immersive cockpit sequences, engineering storytelling, sound experiences, and scroll-driven visual interactions.",
         tech: [
