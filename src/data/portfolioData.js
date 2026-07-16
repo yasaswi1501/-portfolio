@@ -23,10 +23,10 @@ export const internships = [
     company: "DecodeLabs",
     role: "Full Stack Development Intern",
     type: "Virtual Internship",
-    duration: "May 20, 2026 - June 20, 2026",
+    duration: "May 20, 2026 – June 20, 2026",
     location: "Remote",
     description:
-      "Completed a virtual full stack development internship focused on hands-on problem solving, real-world projects, and collaborative development tasks.",
+      "Completed a virtual Full Stack Development internship focused on hands-on problem solving, collaborative software development, and building real-world web applications using modern development practices.",
     tech: [
       "Full Stack Development",
       "JavaScript",
@@ -34,7 +34,7 @@ export const internships = [
       "Problem Solving",
     ],
     certificate:
-    "https://drive.google.com/file/d/1K4QtiW4k03O3_LUIKv7_OLtoV7mWA7NR/view?usp=sharing",
+      "https://drive.google.com/file/d/1K4QtiW4k03O3_LUIKv7_OLtoV7mWA7NR/view?usp=sharing",
   },
 ];
 
@@ -61,6 +61,13 @@ export const certificates = [
     link: "https://drive.google.com/file/d/1owBYEGaDe7jptoV6tsSX-REGp_ddKWGj/view?usp=sharing",
   },
   {
+  title: "Generative AI Mastermind",
+  issuer: "Outskill",
+  date: "Issued 2026",
+  image: null,
+  link: "https://drive.google.com/file/d/1jhEGcRAYdYIN4eJww4RXFjNO-3At95c2/view?usp=sharing",
+  },
+  {
     title: "YUVA AI For All",
     issuer: "TCS iON",
     date: "Issued May 2026",
@@ -78,29 +85,40 @@ export const certificates = [
 
 export const projects = [
   {
-    title: "NEUN11",
-    description:
-      "A cinematic, interactive automotive experience featuring multi-model exploration, vehicle-specific hotspots, performance comparisons, immersive cockpit sequences, engineering storytelling, sound experiences, and scroll-driven visual interactions.",    
-      tech: [
-  "React.js",
-  "JavaScript",
-  "Vite",
-  "Framer Motion",
-  "Interactive UI",
-  "Scroll Animations",
-  "Responsive Web Design",
-  "Data-Driven Components",
-  "React Three Fiber",
-  "Drei",
-  ],
-    github: "https://github.com/yasaswi1501/NEUN11",
-    live: "https://neun-11.vercel.app",
+    category: "AI / Machine Learning",
+    items: [
+      {
+        title: "Attrix - Enterprise Workforce Intelligence Platform",
+        description:
+          "A production-ready enterprise workforce intelligence platform that transforms employee data into interactive executive dashboards and evidence-based organizational insights. Attrix supports analysis across departments, job roles, demographics, tenure, workload, mobility, and organizational risk hotspots using dynamic filtering, advanced visualizations, and real-time analytical summaries.",
+        tech: [
+          "Python",
+          "Streamlit",
+          "Pandas",
+          "NumPy",
+          "Plotly",
+          "SciPy",
+          "Statsmodels",
+          "Pytest",
+          "Data Visualization",
+          "Statistical Analysis",
+          "Interactive Dashboards",
+          "Responsive UI",
+          "Component-Based Architecture",
+        ],
+        github: "https://github.com/yasaswi1501/Attrix",
+        live: "https://attrix.streamlit.app/",
+      },
+    ],
   },
   {
-    title: "Portfolio Website",
-    description:
-      "A responsive personal portfolio built to showcase my education, projects, skills, certificates, and resume.",
-    tech: [
+    category: "Web Development",
+    items: [
+      {
+        title: "Portfolio Website",
+        description:
+          "A modern, responsive portfolio website showcasing my education, internships, projects, technical skills, certifications, and resume through a clean, professional, and interactive user experience.",
+        tech: [
           "React.js",
           "JavaScript",
           "Vite",
@@ -108,9 +126,39 @@ export const projects = [
           "CSS3",
           "Responsive Web Design",
           "Data-Driven Components",
-          ],
-    github: "https://github.com/yasaswi1501/-portfolio",
-    live: "https://portfolio-beta-sandy-60.vercel.app/",
+          "Git",
+          "GitHub",
+          "Vercel",
+        ],
+        github: "https://github.com/yasaswi1501/-portfolio",
+        live: "https://portfolio-beta-sandy-60.vercel.app/",
+      },
+    ],
+  },
+  {
+    category: "Interactive Experiences",
+    items: [
+      {
+        title: "NEUN11",
+        description:
+          "A cinematic, interactive automotive experience featuring multi-model exploration, vehicle-specific hotspots, performance comparisons, immersive cockpit sequences, engineering storytelling, sound experiences, and scroll-driven visual interactions.",
+        tech: [
+          "React.js",
+          "JavaScript",
+          "Vite",
+          "Framer Motion",
+          "Interactive UI",
+          "Scroll Animations",
+          "Responsive Web Design",
+          "Data-Driven Components",
+          "React Three Fiber",
+          "Drei",
+          "GSAP",
+        ],
+        github: "https://github.com/yasaswi1501/NEUN11",
+        live: "https://neun-11.vercel.app",
+      },
+    ],
   },
 ];
 
@@ -118,6 +166,13 @@ export const skills = {
   Languages: ["Java", "Python", "JavaScript"],
   "Core CS": ["Data Structures", "Algorithms", "OOP", "DBMS"],
   "Web Development": ["React", "Node.js", "Express.js", "MongoDB"],
-  "AI/ML": ["Machine Learning", "Generative AI"],
-  Tools: ["Git", "GitHub", "VS Code"],
+  "AI/ML": [
+    "Machine Learning",
+    "Generative AI",
+    "Pandas",
+    "NumPy",
+    "Plotly",
+    "Streamlit",
+  ],
+  Tools: ["Git", "GitHub", "VS Code", "Vite", "Vercel"],
 };
