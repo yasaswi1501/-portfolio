@@ -42,6 +42,66 @@ export const internships = [
   },
 ];
 
+export const hackathons = [
+  {
+    title: "GDG on Campus GITAM Wonder of Wonders — WOWFest 2026",
+    organizer: "Google Developer Groups on Campus GITAM",
+    role: "Backend Developer & ML Integration Engineer",
+    duration: "4 Jul 2026 – 5 Jul 2026",
+    project: "MetroMind | AI & Machine Learning-Powered Smart City Digital Twin",
+    projectId: "metromind-project",
+    description:
+      "Collaborated in a 3-member engineering team to design and build MetroMind, an AI & Machine Learning-powered Smart City Digital Twin during GDG WOWFest 2026. Contributed to backend engineering, REST API development, Python ML integration, and MongoDB schema design.",
+    highlights: [
+      "3-Member Engineering Team",
+      "AI/ML-Powered Smart City Digital Twin",
+      "REST API Development",
+      "Python ML Service Integration",
+      "MongoDB Schema Design",
+      "Backend Integration",
+      "API Testing",
+      "Technical Presentation",
+      "Hackathon Delivery",
+      "Deployment Support",
+    ],
+    tech: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Python",
+      "Flask",
+      "Machine Learning",
+      "MongoDB",
+      "REST APIs",
+      "Vercel",
+    ],
+    certificate:
+      "https://drive.google.com/file/d/1PLBMcXIHV2hHArsiGdEZz3xfNRp0hBgX/view?usp=sharing",
+  },
+  {
+    title: "Smart India Hackathon",
+    organizer: "GITAM University",
+    role: "Application Developer",
+    duration: "2025",
+    project: "StudyFlow.ai | Smart AI Scheduler",
+    description:
+      "Collaborated in a 4-member engineering team to design and develop Smart AI Scheduler for the Smart India Hackathon. Contributed to software architecture, implementation, testing, and solution presentation within strict hackathon timelines.",
+    highlights: [
+      "4-Member Engineering Team",
+      "Software Architecture",
+      "Application Development",
+      "Testing",
+      "Team Collaboration",
+      "Problem Solving",
+      "Technical Presentation",
+      "Smart India Hackathon",
+    ],
+    tech: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
+    certificate:
+      "https://drive.google.com/file/d/1iSTpgMvp6WTd2jHC1fwHRPcpz-B9tOvu/view?usp=sharing",
+  },
+];
+
 export const certificates = [
   {
     title: "Gemini for University Students",
@@ -91,6 +151,91 @@ export const projects = [
   {
     category: "AI / Machine Learning",
     items: [
+      {
+        id: "metromind-project",
+        title: "MetroMind | AI & Machine Learning-Powered Smart City Digital Twin",
+        subtitle: "Team Project — 3 Members",
+        image: null,
+        imageAlt:
+          "MetroMind Smart City Digital Twin dashboard displaying urban analytics and operational intelligence",
+        description:
+          "Collaborated in a 3-member engineering team to develop an AI & Machine Learning-powered Smart City Digital Twin that centralizes transportation, environmental, weather, water, energy, and public safety intelligence into a unified operational platform.\n\nDesigned and developed scalable REST APIs using Node.js and Express.js, enabling seamless communication between the frontend, Machine Learning services, and database.\n\nIntegrated Python-based Machine Learning services to process urban datasets, perform anomaly detection, identify operational patterns, and generate predictive insights for intelligent city management.\n\nDesigned and implemented MongoDB database schemas to efficiently manage multi-domain smart-city data, ensuring scalability, data integrity, and efficient querying.\n\nBuilt interactive dashboards with real-time visualizations, KPIs, and geographic analytics, transforming complex infrastructure data into actionable intelligence.\n\nContributed to a modular architecture that supports the seamless integration of new smart-city services and Machine Learning capabilities without impacting existing modules.\n\nParticipated in end-to-end development, including backend integration, API testing, deployment, and production release on Vercel.",
+        myContributions: [
+          "Designed and developed REST APIs using Node.js and Express.js",
+          "Integrated Python-based Machine Learning services",
+          "Designed MongoDB database schemas",
+          "Contributed to backend engineering",
+          "Supported frontend and backend integration",
+          "Participated in API testing",
+          "Participated in deployment and production release",
+        ],
+        highlights: [
+          "3-Member Engineering Team",
+          "REST API Development",
+          "Python ML Integration",
+          "MongoDB Schema Design",
+          "Backend Engineering",
+          "API Testing",
+          "Interactive Dashboards",
+          "Real-Time Analytics",
+          "Geospatial Analytics",
+          "Production Deployment",
+        ],
+        tech: [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "Python",
+          "Flask",
+          "Machine Learning",
+          "MongoDB",
+          "REST APIs",
+          "Vercel",
+        ],
+        github: null,
+        live: null,
+        featured: true,
+      },
+      {
+        title: "Attrix — Enterprise Workforce Intelligence Platform",
+        image: null,
+        imageAlt:
+          "MetroMind AI & Machine Learning-Powered Smart City Digital Twin",
+        description:
+          "Collaborated in a 3-member engineering team to develop an AI & Machine Learning-powered Smart City Digital Twin that centralizes transportation, environmental, weather, water, energy, and public safety intelligence into a unified operational platform.",
+        highlights: [
+          "Designed and developed scalable REST APIs using Node.js and Express.js, enabling seamless communication between the frontend, machine learning services, and database.",
+          "Integrated Python-based Machine Learning services to process urban datasets, perform anomaly detection, identify operational patterns, and generate predictive insights for intelligent city management.",
+          "Designed and implemented MongoDB database schemas to efficiently manage multi-domain smart-city data, ensuring scalability, data integrity, and efficient querying.",
+          "Built interactive dashboards with real-time visualizations, KPIs, and geographic analytics, transforming complex infrastructure data into actionable intelligence.",
+          "Contributed to a modular architecture that supports seamless integration of additional smart-city services and machine learning capabilities without affecting existing modules.",
+          "Participated in backend integration, API testing, deployment, and production release on Vercel.",
+        ],
+        contributions: [
+          "REST API Development using Node.js and Express.js",
+          "Python Machine Learning Integration",
+          "MongoDB Schema Design",
+          "Backend Engineering",
+          "Interactive Dashboard Development",
+          "Backend Integration",
+          "API Testing",
+          "Deployment",
+        ],
+        tech: [
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "Python",
+          "Flask",
+          "Machine Learning",
+          "MongoDB",
+          "REST APIs",
+          "Vercel",
+        ],
+        github: null,
+        live: null,
+        featured: true,
+      },
       {
         title: "Attrix — Enterprise Workforce Intelligence Platform",
         image: attrixOverview,
